@@ -1,0 +1,77 @@
+{
+  "name": "quidignissimos",
+  "version": "1.0.0",
+  "description": "A type-safe routing library for TypeScript",
+  "files": [
+    "lib",
+    "es6"
+  ],
+  "main": "lib/index.js",
+  "module": "es6/index.js",
+  "typings": "lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RosaliaNienow/quidignissimos.git"
+  },
+  "author": "ElseSpencer",
+  "license": "MIT",
+  "homepage": "https://github.com/RosaliaNienow/quidignissimos.git",
+  "peerDependencies": {
+    "fp-ts": "^1.19.0 || ^2.0.0-rc.7",
+    "io-ts": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/node": "^10.3.3",
+    "docs-ts": "0.0.1",
+    "dtslint": "github:gcanti/dtslint",
+    "fp-ts": "^1.19.0",
+    "io-ts": "^1.10.0",
+    "jest": "^22.4.3",
+    "prettier": "^1.15.3",
+    "ts-jest": "^22.4.2",
+    "ts-node": "3.3.0",
+    "tslint": "^5.9.1",
+    "tslint-config-standard": "^7.0.0",
+    "typescript": "^3.2.2"
+  },
+  "tags": [
+    "typescript",
+    "functional-programming",
+    "routing",
+    "applicative"
+  ],
+  "keywords": [
+    "typescript",
+    "functional-programming",
+    "routing",
+    "perspiciatis"
+  ],
+  "jest": {
+    "globals": {
+      "ts-jest": {
+        "skipBabel": true
+      }
+    },
+    "collectCoverage": true,
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "test",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 0
+      }
+    },
+    "testEnvironment": "node"
+  },
+  "dependencies": {}
+}
